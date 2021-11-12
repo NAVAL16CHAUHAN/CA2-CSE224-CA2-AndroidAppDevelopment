@@ -60,7 +60,8 @@
         android:text="Sign Up"
         android:textAllCaps="false"
         android:textColor="@color/teal_700"
-        android:textSize="15dp" />
+        android:textSize="15dp" >
+    </Button>
 
     <Button
         android:id="@+id/btnlogin"
@@ -77,7 +78,8 @@
         android:text="Log in"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="15dp" />
+        android:textSize="15dp" >
+    </Button>
 
 
      <de.hdodenhof.circleimageview.CircleImageView
@@ -144,7 +146,8 @@
         android:layout_marginBottom="331dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="or"
-        android:textStyle="bold" />
+        android:textStyle="bold">
+    </TextView>
 
     <TextView
         android:id="@+id/userName"
@@ -163,7 +166,8 @@
         android:textColor="@color/indigo"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" >
+    </TextView>
 
     <EditText
         android:id="@+id/mailid"
@@ -184,7 +188,8 @@
         android:gravity="center|center_horizontal|center_vertical"
         android:inputType="textPersonName"
         android:text="vkpandey789@gmail.com"
-        android:textColor="@color/white" />
+        android:textColor="@color/white">
+    </EditText>
 
     <TextView
         android:id="@+id/pass"
@@ -203,7 +208,8 @@
         android:textColor="@color/indigo"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+    </TextView>
 
     <EditText
         android:id="@+id/password"
@@ -225,7 +231,8 @@
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+    </EditText>
 
     <CheckBox
         android:id="@+id/RememberMe"
@@ -240,7 +247,8 @@
         android:layout_marginBottom="130dp"
         android:text="Remember me"
         android:textColor="@color/black"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true">
+    </CheckBox>
 
     <Button
         android:id="@+id/Done"
@@ -261,26 +269,28 @@
         android:paddingLeft="35dp"
         android:paddingRight="20dp"
         android:text="Done"
-        android:textColor="@color/white" />
+        android:textColor="@color/white">
+    </Button>
 
-        <TextView
-            android:id="@+id/ForgetPass"
-            android:layout_width="145dp"
-            android:layout_height="27dp"
-            android:layout_alignStart="@+id/Done"
-            android:layout_alignLeft="@+id/Done"
-            android:layout_alignEnd="@+id/Done"
-            android:layout_alignRight="@+id/Done"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="104dp"
-            android:layout_marginLeft="104dp"
-            android:layout_marginEnd="107dp"
-            android:layout_marginRight="107dp"
-            android:layout_marginBottom="35dp"
-            android:foregroundGravity="center_horizontal"
-            android:gravity="center|center_horizontal"
-            android:text="Forget Password ?"
-            android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/ForgetPass"
+        android:layout_width="145dp"
+        android:layout_height="27dp"
+        android:layout_alignStart="@+id/Done"
+        android:layout_alignLeft="@+id/Done"
+        android:layout_alignEnd="@+id/Done"
+        android:layout_alignRight="@+id/Done"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="35dp"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center|center_horizontal"
+        android:text="Forget Password ?"
+        android:textColor="@color/white" >
+    </TextView>
 
 </RelativeLayout>
