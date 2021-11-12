@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment_question2_solution"
+    android:background="@color/yellow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Registration Form"
+        android:textColor="@color/tomato_red"
+        android:textSize="38dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_View_s2"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="187dp"
+        android:gravity="center"
+        android:text="Name : "
+        android:textColor="@color/tomato_red"
+        android:textSize="28dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_Text_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:hint="Enter Your Name "
+        android:textColor="@color/tomato_red"
+        android:textColorHint="@color/tomato_red"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_View_s3"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="243dp"
+        android:gravity="center"
+        android:text="Age : "
+        android:textColor="@color/tomato_red"
+        android:textSize="28dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_Text_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:hint="Enter Your Age"
+        android:textColor="@color/tomato_red"
+        android:textColorHint="@color/tomato_red"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_View_s22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="336dp"
+        android:gravity="center"
+        android:text=" Select Your Gender"
+        android:textColor="@color/tomato_red"
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <RadioButton
+        android:id="@+id/radio_Button_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:gravity="center"
+        android:text="Male"
+        android:textColor="@color/tomato_red"
+        android:textSize="27dp">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/radio_Button_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:gravity="center"
+        android:text="Female"
+        android:textColor="@color/tomato_red"
+        android:textSize="27dp">
+    </RadioButton>
+
+    <CheckBox
+        android:id="@+id/check_Box_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:gravity="center"
+        android:text="Agree Policy"
+        android:textColor="@color/tomato_red"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="577dp"
+        android:backgroundTint="@color/blue"
+        android:gravity="center"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/tomato_red"
+        android:textSize="30dp">
+    </Button>
+
+</RelativeLayout>

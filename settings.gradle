@@ -1,0 +1,2 @@
+rootProject.name = "Assignment_CA2_AndroidAppDevelopment"
+include ':app'
